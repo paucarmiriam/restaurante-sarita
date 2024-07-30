@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgb(158, 3, 3);
+    justify-content: space-between;
+}
+
+.logo li{
+    list-style: none;
+    padding: 0 5px;
+    margin-top: 20px;
+}
+
+.logo i{
+    font-size: 20px;
+}
+
+.cel{
+    display: flex;
+}
+
+.icon{
+    display: flex;
+    padding: 0 20px;
+}
+.icon li{
+    padding: 0 10px;
+}
+
+.icon img{
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icon i{
+    font-size: 40px;
+}
+
+.icon a{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#wasap{
+    color: rgb(38, 172, 38);
+}
+
+#facebook{
+    color: blue;
+}
+
+
+
+nav p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: rgb(15, 54, 112);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-links ul li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+}
+
+.nav-links ul li:hover::after{
+    width: 100px;
+}
+
+
+.carousel-caption{
+    background-color: black;
+}
+
+/*Historia*/
+
+.historia{
+    width: 95%;
+    padding-top: 50px;
+    margin: 5px auto;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.historia h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 15px;
+}
+
+.rowa{
+    flex-basis: 10%;
+    display: flex;
+    padding: 35px 10px;
+}
+
+.rowa p{
+    width: 95%;
+    height: 100%;
+    background-color: rgb(234, 234, 234);
+    color: black;
+    font-size: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20%;
+    box-sizing: border-box;
+    clip-path: circle(90%);
+    margin-bottom: 20px;
+    border: 3px solid black;
+    flex-wrap: wrap;
+}
+
+.his{
+    flex-basis: 50%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12 px;
+    box-sizing: border-box;
+}
+
+.rowa img{
+    width: 95%;
+    height: 100%;
+    border-radius: 70px;
+}
+
+.historia .btnm{
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    color: #000000;
+    margin-bottom:30px;
+    text-decoration: none;
+}
+
+/*Platos de Casa*/
+
+
+.plts{
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-image: url(img/local_02.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.plts .btnn{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+}
+
+.platos{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    flex-wrap: wrap-reverse; 
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+
+
+
+.platos .carousel-inner{
+    width: 700px;
+    height: 600px;
+    padding-top: 80px;
+    margin-right: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.platos img{
+    border-radius: 10%;
+    border: 6px solid black;
+}
+
+.platos h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(17, 1, 195);
+    background-color: #ffffff;
+    border: 6px solid black;
+}
+
+
+.pla{
+    width: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10%;
+    color: white;
+}
+
+.pla h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -50px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.pla p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(59, 17, 17);
+    background-color: #ffffff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    box-sizing: border-box;
+    clip-path: circle(80%);
+    margin-bottom: 20px;
+    border: 3px solid black;
+    flex-wrap: wrap;
+}
+
+
+
+
+/*Ubicación*/
+
+
+.lugar {
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5%;
+    box-sizing: border-box; 
+}
+
+
+.lu {
+    width: 100%; 
+    max-width: 40%; 
+    padding-right: 2%;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.lugar img {
+    width: 100%;
+    max-height: 250px; 
+    border-radius: 45%;
+    object-fit: cover; 
+    margin-bottom: 30px;
+}
+
+
+.map {
+    width: 100%; 
+    max-width: 60%; 
+    border: 2px solid black;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.map .m {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem; 
+    text-align: center;
+}
+
+
+.mapa {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.mp {
+    width: 100%; 
+    max-width: 74%; 
+    box-sizing: border-box;
+}
+
+.lm .m2 {
+    width: 100%; 
+    max-width: 24%; 
+    padding-top: 20px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.8rem;
+    text-align: center; 
+    box-sizing: border-box; 
+}
+
+.lm ul li a {
+    text-decoration: none;
+    color: rgb(57, 11, 11);
+    display: block; 
+    padding: 5px 10px; 
+    text-align: center; 
+    box-sizing: border-box; 
+}
+
+
+@media (max-width: 768px) {
+    .lu, .map {
+        max-width: 100%; 
+    }
+
+    .lm .m2 {
+        max-width: 100%; 
+    }
+}
+
+
+
+/*footer*/
+
+.footer{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+
+
+
